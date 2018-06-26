@@ -6,8 +6,6 @@ Template URI: https://onepagelove.com/split
 Description: Split is a centrally-divided layout for a professional online presence with a big image or video left with alongside content.
 */
 /* -- CSS Reset -- */
-@import url("https://fonts.googleapis.com/css?family=Montserrat:400,600");
-@import url("https://fonts.googleapis.com/css?family=Lora");
 html, body, div, span, applet, object, iframe,
 h1, h2, h3, h4, h5, h6, p, blockquote, pre,
 a, abbr, acronym, address, big, cite, code,
@@ -79,7 +77,7 @@ img.aligncenter {
 }
 
 body {
-  background-color: #FFFFFF;
+  background-color: #FFF;
   border-style: none;
 }
 
@@ -108,21 +106,20 @@ a:hover {
   }
 }
 html {
-  background-color: #061C30;
+  background-color: #FFF;
 }
 
 body.page-template-page-fullsingle-split {
-  background-color: #061C30;
-  font-family: "Montserrat", sans-serif;
+  font-family: "Andale Mono";
   font-weight: 400;
-  font-size: 21px;
+  font-size: 1.2em;
   line-height: 33px;
   letter-spacing: -0.2px;
-  color: #848d96;
+  color: #000;
   animation: fadein 2s;
 }
 body.page-template-page-fullsingle-split p {
-  color: #848d96;
+  color: #000;
 }
 
 .fs-split {
@@ -194,12 +191,12 @@ body.page-template-page-fullsingle-split p {
   color: #47bec7;
 }
 .split-intro .tagline {
-  color: #CCCCCC;
+  color: #000;
 }
 
 .split-bio {
   padding: 40px 0 20px 0;
-  font-family: "Lora", serif;
+  font-family: "Andale Mono";
 }
 @media (max-width: 1200px) {
   .split-bio {
@@ -212,14 +209,14 @@ body.page-template-page-fullsingle-split p {
   }
 }
 .split-bio p {
-  color: #848d96;
+  color: #000;
   margin-bottom: 20px;
   line-height: inherit;
 }
 .split-bio a {
-  color: #848d96;
+  color: #000;
   transition-duration: 0.5s;
-  border-bottom: 1px dotted #848d96;
+  border-bottom: 1px dotted #000;
 }
 .split-bio a:hover {
   color: #CA486d;
@@ -341,7 +338,7 @@ body.page-template-page-fullsingle-split p {
   font-size: 11px;
   line-height: 11px;
   margin-bottom: 31px;
-  color: #848d96;
+  color: #000;
   letter-spacing: 2px;
   opacity: 0.5;
 }
@@ -351,7 +348,7 @@ body.page-template-page-fullsingle-split p {
   margin-bottom: 12px;
 }
 .split-lists .split-list ul li a {
-  color: #848d96;
+  color: #000;
   transition-duration: 0.5s;
 }
 .split-lists .split-list ul li a:hover {
@@ -367,7 +364,7 @@ body.page-template-page-fullsingle-split p {
   line-height: 14px;
 }
 .split-credit p a {
-  color: #848d96;
+  color: #000;
 }
 
 .split-video {
